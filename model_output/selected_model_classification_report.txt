@@ -1,0 +1,13 @@
+NEONATAL CRY CLASSIFICATION
+Selected Model: KNN
+
+              precision    recall  f1-score   support
+
+  Discomfort       0.20      0.24      0.22        49
+      Hunger       0.38      0.47      0.42        76
+        Pain       0.71      0.57      0.63        30
+       Sleep       0.20      0.04      0.06        27
+
+    accuracy                           0.36       182
+   macro avg       0.37      0.33      0.33       182
+weighted avg       0.36      0.36      0.35       182

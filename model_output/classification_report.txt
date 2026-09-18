@@ -1,0 +1,13 @@
+NEONATAL CRY CLASSIFICATION
+Selected Model: Logistic Regression
+
+              precision    recall  f1-score   support
+
+  Discomfort       0.24      0.27      0.25        49
+      Hunger       0.44      0.25      0.32        76
+        Pain       0.45      0.57      0.50        30
+       Sleep       0.13      0.22      0.16        27
+
+    accuracy                           0.30       182
+   macro avg       0.31      0.33      0.31       182
+weighted avg       0.34      0.30      0.31       182

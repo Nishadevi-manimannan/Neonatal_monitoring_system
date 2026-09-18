@@ -1,0 +1,34 @@
+NEONATAL CRY CLASSIFICATION
+TUNED SVM MODEL
+
+Dataset samples: 910
+Audio features: 64
+Training samples: 728
+Testing samples: 182
+
+BEST PARAMETERS
+svm__C = 1
+svm__class_weight = balanced
+svm__gamma = 0.01
+svm__kernel = rbf
+
+CV Macro-F1: 0.3267
+
+TEST RESULTS
+Accuracy: 0.3901
+Precision: 0.4081
+Recall: 0.4149
+F1 Score: 0.4099
+
+CLASSIFICATION REPORT
+
+              precision    recall  f1-score   support
+
+  Discomfort       0.31      0.35      0.33        49
+      Hunger       0.39      0.34      0.37        76
+        Pain       0.62      0.60      0.61        30
+       Sleep       0.30      0.37      0.33        27
+
+    accuracy                           0.39       182
+   macro avg       0.41      0.41      0.41       182
+weighted avg       0.40      0.39      0.39       182
